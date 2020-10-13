@@ -34,12 +34,7 @@ body{
 
 }
 
-
-    
-
-
-
-h4 {
+h5 {
     color: black;
 }
 
@@ -84,9 +79,7 @@ h4 {
     font-weight: 700;
     line-height: 26px;
     letter-spacing: 2.4000000953674316px;
-    
-
-
+  
 }
 
 .rectangle {
@@ -103,10 +96,6 @@ h4 {
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 2.799999952316284px;
-    
-
-
-
 }
 
 .Scroll-down{
@@ -128,6 +117,7 @@ h4 {
 
 .Why-Choose-Us-main{
 
+
 }
 .info{
     font-family: 'Josefin Sans', sans-serif;
@@ -144,7 +134,6 @@ h4 {
 }
 
 .Explore-places-btn {
-    
     
     height: 63px;
     width: 228px;
@@ -177,7 +166,7 @@ h4 {
 
 .How-it-works {
 
-    font-family: Aleo;
+    font-family: 'Aleo', serif;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
@@ -191,8 +180,60 @@ h4 {
     color: #E8E8E8;
 }
 
-.Group-1 {
+.Group1 {
+    
+    display: flex;
+    justify-content: space-around;
+    margin: 0%;
+    padding: 0%;
+}
+.card1 {
+    
+    width: 543px;
+    height: 374px;
+    left: 328px;
+    top: 227px;
 
+    background: #232323;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+}
+
+.BUTTON{
+    font-family: 'Aleo', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 1.2000000476837158px;
+    
+
+    width: 228px;
+    height: 63px;
+    background-color: coral;
+    
+}
+
+.card2{
+    
+    width: 543px;
+    height: 374px;
+    left: 898px;
+    top: 227px;
+
+    background: #232323;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+}
+.Grand-Spain-Madrid {
+    color: #FFFFFF;
+
+}
+.spain{
+    color: #FFFFFF;
+}
+.info-text{
+    color:#FFFFFF
 }
 
 .Rectangle {
@@ -203,12 +244,9 @@ h4 {
 
 }
 
-.Group-2 {
 
-}
 
 .footer {
     display: flex;
     justify-content: center;
-    flex-direction: ;
-}
+    
