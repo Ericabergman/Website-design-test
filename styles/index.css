@@ -1,17 +1,13 @@
 body{
+    margin:0;
     
 
 }
 
 .header{
     width: 100%;
-    
-    
-   
-    
-    
-
 }
+
 .main-title {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 48px;
@@ -26,18 +22,29 @@ body{
 
 .main-text {
     color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 6.820000171661377px;
+    text-align: center;
+
 }
 
-h3 {
-    color: black;
 
-}
+    
+
+
 
 h4 {
     color: black;
 }
 
 .img {
+    background-image: url(image.png);
     
 }
 
@@ -46,9 +53,8 @@ h4 {
 }
 .nav-bar {
     display: flex;
+    justify-content: space-around;
     background-color: #5474FD;
-    ;
-    
 }
 .menu {
     display: flex;
@@ -58,12 +64,28 @@ h4 {
 
 .li {
     list-style-type: none;
+    font-family: 'Aleo', serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    
     
 
 }
 
 .logo {
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2.4000000953674316px;
     
+
 
 }
 
@@ -72,8 +94,18 @@ h4 {
 }
 
 .search-bar {
+    
     display: flex;
     justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 2.799999952316284px;
+    
+
+
 
 }
 
@@ -82,7 +114,8 @@ h4 {
     justify-content: center;
 }
 
-.Why-Choose-Us {
+.container-Why-Choose-Us {
+    background: url(Rectangle.png);
 
 }
 
