@@ -94,7 +94,7 @@ h4 {
 }
 
 .search-bar {
-    
+   
     display: flex;
     justify-content: center;
     font-family: 'Josefin Sans', sans-serif;
@@ -117,9 +117,26 @@ h4 {
 .container-Why-Choose-Us {
     background: url(Rectangle.png);
 
+
+}
+.info{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 1.600000023841858px;
+    text-align: left;
+    height: 158px;
+    width: 560px;
+    left: 330px;
+    top: 288px;
+    border-radius: nullpx;
+
 }
 
 .Explore-places {
+    background-color: blue;
 
 }
 
