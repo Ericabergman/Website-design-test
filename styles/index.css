@@ -1,25 +1,69 @@
 body{
+    
 
 }
 
-header{
-    background-image: ;
+.header{
+    width: 100%;
+    
+    
+   
+    
+    
+
+}
+.main-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 4.800000190734863px;
+    text-align: center;
+
+    color: black;
+}
+
+.main-text {
+    color: black;
+}
+
+h3 {
+    color: black;
 
 }
 
-.container {
-
+h4 {
+    color: black;
 }
 
+.img {
+    
+}
+
+.header {
+
+}
+.nav-bar {
+    display: flex;
+    background-color: #5474FD;
+    ;
+    
+}
 .menu {
-
+    display: flex;
+    
+    
 }
 
 .li {
+    list-style-type: none;
+    
 
 }
 
 .logo {
+    
 
 }
 
@@ -28,11 +72,14 @@ header{
 }
 
 .search-bar {
+    display: flex;
+    justify-content: center;
 
 }
 
 .Scroll-down{
-
+    display: flex;
+    justify-content: center;
 }
 
 .Why-Choose-Us {
@@ -61,4 +108,10 @@ header{
 
 .Group-2 {
 
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: ;
 }
