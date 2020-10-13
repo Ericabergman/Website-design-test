@@ -172,11 +172,7 @@ h5 {
     font-size: 36px;
     line-height: 26px;
     /* or 72% */
-
-    
     align-items: center;
-    
-
     color: #E8E8E8;
 }
 
@@ -206,11 +202,9 @@ h5 {
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 1.2000000476837158px;
-    
-
     width: 228px;
     height: 63px;
-    background-color: coral;
+    background-color: #496BFE;
     
 }
 
