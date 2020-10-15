@@ -1,8 +1,9 @@
 body{
-    margin:0;
+    width: 100%;
 }
 .header{
-    width: 100%;
+    background-image: url(../images/image\ 1.svg);
+    height: 821px;
 }
 .main-title {
     font-family: 'Josefin Sans', sans-serif;
@@ -12,10 +13,10 @@ body{
     line-height: 26px;
     letter-spacing: 4.800000190734863px;
     text-align: center;
-    color: black;
+    color: white;
 }
 .main-text {
-    color: black;
+    color: white;
     display: flex;
     justify-content: center;
     font-family: 'Josefin Sans', sans-serif;
@@ -26,12 +27,7 @@ body{
     letter-spacing: 6.820000171661377px;
     text-align: center;
 }
-h5 {
-    color: black;
-}
-.img {
-    background-image: url(image.png);
-}
+
 .nav-bar {
     display: flex;
     justify-content: space-around;
@@ -60,6 +56,8 @@ h5 {
     letter-spacing: 2.4000000953674316px;
 }
 .search-bar {
+    
+    height: 63px;
     display: flex;
     justify-content: center;
     font-family: 'Josefin Sans', sans-serif;
@@ -69,11 +67,23 @@ h5 {
     line-height: 26px;
     letter-spacing: 2.799999952316284px;
 }
+
+.label{
+    width: 153px;
+    height: 63px;
+    
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+
+}
+
 .Scroll-down{
+    color: transparent;
     display: flex;
     justify-content: center;
 }
 .container-Why-Choose-Us {
+    
     display: flex;
     justify-content: center;
     font-family: 'Aleo', serif;
@@ -82,7 +92,13 @@ h5 {
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0px;
-    text-align: left;
+    
+    background-image: url(../images/sunset.svg);
+}
+
+.Why-Us-main {
+    color: white;
+    
 }
 .info{
     font-family: 'Josefin Sans', sans-serif;
@@ -95,14 +111,17 @@ h5 {
     height: 158px;
     width: 560px;
     border-radius: nullpx;
+    color: white;
 }
+
+
 .Explore-places-btn {
-    height: 63px;
+    
     width: 228px;
     border-radius: 0px;
     background-color: #5474FD;
     width: 179px;
-    height: 26px;
+    height: 63px;
     font-family: 'Aleo', serif;
     font-style: normal;
     font-weight: normal;
@@ -114,6 +133,17 @@ h5 {
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
+.How-it-works {
+    font-family: 'Aleo', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 26px;
+    
+    align-items: center;
+    color: #E8E8E8;
+}
 .rectangle {
     width: 100%;
     height:337px;
@@ -121,33 +151,50 @@ h5 {
     justify-content: space-evenly;
     align-items: center;
     background: #333333;
-    background-color: ;
+    
 }
-.How-it-works {
-    font-family: 'Aleo', serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 26px;
-    /* or 72% */
-    align-items: center;
-    color: #E8E8E8;
+
+.section {
+    height: 1400px;
+    
 }
-.Group1 {
+.first-Group {
+    height: 700px;
     display: flex;
     justify-content: space-around;
-    margin: 0%;
-    padding: 0%;
+    background-image: url(../images/house\ with\ a\ pool.svg);
 }
-.card1 { 
-    width: 543px;
+.first-card { 
+    
     height: 374px;
-    left: 328px;
-    top: 227px;
+    
     background: #232323;
     mix-blend-mode: normal;
     opacity: 0.9;
 }
+
+.second-Group {
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../images/view\ from\ mountain.svg);
+}
+
+.second-card {
+    width: 543px;
+    height: 374px;
+    background: #232323;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+}
+
+.info-text {
+    width: 508px;
+}
+
+
+
+
 .BUTTON{
     font-family: 'Aleo', serif;
     font-size: 16px;
@@ -159,7 +206,7 @@ h5 {
     height: 63px;
     background-color: #496BFE;   
 }
-.card2{
+.card2 {
     width: 543px;
     height: 374px;
     background: #232323;
@@ -167,7 +214,17 @@ h5 {
     opacity: 0.9;
 }
 .Grand-Spain-Madrid {
-    color: #FFFFFF;
+    width: 241px;
+    height: 26px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FEFEFE;
 }
 .spain{
     color: #FFFFFF;
@@ -175,7 +232,74 @@ h5 {
 .info-text{
     color:#FFFFFF
 }
+
+
+.Testimonial {
+    display: flex;
+    height: 731px;  
+    background-image: url(../images/Rectangle\ 4142\ 1.svg);
+}
+.content {
+    align-items: center;
+    display: flex;
+    color: white;
+
+}
+
+.our-torist-says {
+    
+    font-family: 'Aleo', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    width: 390px;
+    height: 26px;
+    
+
+}
+.sam-sumon {
+    color:white;
+    width: 150px;
+    height: 26px;
+    
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+
 .footer {
+    width: 1773px;
+    height: 271px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: #232323;
+}
+
+.logo-footer {
+    color: white;
+
+}
+h3 {
+    width: 193px;
+    
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 3.36px;
+    text-transform: uppercase;
 }
